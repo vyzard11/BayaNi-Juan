@@ -14,8 +14,7 @@
 		
 		
         </gap:platforms>
-
-        <icon src="icons/128.png" gap:role="default" />
+		<icon src="icons/128.png" gap:platform="android" />
         <preference name="phonegap-version" value="3.6.3" />
 		<feature name="http://api.phonegap.com/1.0/device"/>
 		<feature name="http://api.phonegap.com/1.0/media" /> 
