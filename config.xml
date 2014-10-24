@@ -3,7 +3,7 @@
 
         <name>BayaNi Juan</name>
         <description>RPG Game about heroes</description>
-        <author>Catallyst Coders</author>
+        <author>Catalyst Coders</author>
 		<content src="index.html" />
 		<gap:platforms>
                 <gap:platform name="ios" />
@@ -14,7 +14,7 @@
 		
 		
         </gap:platforms>
-		<icon src="icons/128.png" gap:platform="android" />
+		<icon src="icons/Bj-icon.png" gap:role="default" />
         <preference name="phonegap-version" value="3.6.3" />
 		<feature name="http://api.phonegap.com/1.0/device"/>
 		<feature name="http://api.phonegap.com/1.0/media" /> 
