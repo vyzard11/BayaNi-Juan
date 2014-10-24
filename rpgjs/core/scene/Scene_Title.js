@@ -6,7 +6,7 @@ RPGJS_Canvas.Scene.New({
 // 			background: "../materials/Graphics/Titles/picture11.jpg",
 // 			cursor_on: "../materials/Graphics/Pictures/Mn_Sel.png",
 // 			cursor_off: "../materials/Graphics/Pictures/Mn_Sel_Off.png"
- background: "Graphics/Titles/picture11.jpg",
+ background: "Graphics/Titles/main.png",
  cursor_on: "Graphics/Pictures/Mn_Sel.png",
  cursor_off: "Graphics/Pictures/Mn_Sel_Off.png"
 // 			

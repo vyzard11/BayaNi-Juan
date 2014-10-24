@@ -1,0 +1,11 @@
+{
+  "main": "index.html",
+  "name": "Bayani Juan",
+  "version": "1.0.0",
+  "window": {
+    "title": "BayaNi Juan",
+    "toolbar": false,
+    "resizable": false,
+    "fullscreen": true
+  }
+}
