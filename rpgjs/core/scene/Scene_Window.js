@@ -19,7 +19,7 @@ RPGJS_Canvas.Scene.New({
 		var self = this;
 		
 		
-		this.window = RPGJS_Canvas.Window.New(this, 500, 150, "window");
+		this.window = RPGJS_Canvas.Window.New(this, 500, 200, "window");
 		this.window.setBackground("#32343A", 6, .7);
 		
 		this.window.position("bottom");

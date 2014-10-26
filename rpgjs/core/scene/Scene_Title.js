@@ -42,11 +42,11 @@ RPGJS_Canvas.Scene.New({
 			
 			var text = RPGJS_Canvas.Text.New(this, choice[id]);
 			text.style({
-				size: "25px",
+				size: "4em",
 				color: "white",
 				textBaseline: "top",
-				family: "Megadeth",
-				shadow: "1 1 10 #DBD862"
+				family: "Playbill",
+				shadow: "1 1 10 #000000"
 			}).draw(btn, 0, 0);
 			
 			btn.y = i * 60;
@@ -71,7 +71,7 @@ RPGJS_Canvas.Scene.New({
 			i++;
 		}
 		btns_set.x = 350;
-		btns_set.y = 300;
+		btns_set.y = 340;
 		
 		stage.append(background, btns_set);
 		
