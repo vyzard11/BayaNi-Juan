@@ -7,6 +7,7 @@
 	<title></title>
 	<script src="rpgjs/canvasengine.min.js"></script>
 	<script src="rpgjs/rpgjs.min.js"></script>
+	<script src="rpgjs/jq.js"></script>
 	<script src="plugins/gamepad.js"></script>
 	<script src="plugins/virtualjoystick.js"></script>
 	<script src="plugins/soundmanager2-jsmin.js"></script>
@@ -57,11 +58,19 @@
 	
 		});
 	
-		
 	</script>
 		
  </head>
-  <body>
+<body>
 	<div id="game"><canvas id="canvas" width="800" height="480" autofocus="autofocus"></canvas></div>
-  </body>
+	
+	<script>
+			$(document).ready(function(){
+				var widthTest = $(window).width();
+				var heightTest = $(window).height();
+				$("#canvas").css({width:widthTest});
+				$("#canvas").css({height:heightTest});
+			});
+	</script>
+</body>
 </html>

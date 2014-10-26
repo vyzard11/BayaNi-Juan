@@ -8,7 +8,7 @@ RPGJS_Canvas.Scene.New({
 // 			cursor_off: "../materials/Graphics/Pictures/Mn_Sel_Off.png"
  background: "Graphics/Titles/main.png",
  cursor_on: "Graphics/Pictures/Mn_Sel.png",
- cursor_off: "Graphics/Pictures/Mn_Sel_Off.png"
+ //cursor_off: "Graphics/Pictures/Mn_Sel_Off.png"
 // 			
 
 		}
@@ -25,8 +25,8 @@ RPGJS_Canvas.Scene.New({
 		box.open(stage);
 		
 		var choice = {
-			new_game: "New Game", 
-			load_game: "Load"
+			new_game: "New Game"
+			//load_game: "Load"
 		},
 			btns_set = this.createElement(),
 			btn, text,
@@ -71,7 +71,7 @@ RPGJS_Canvas.Scene.New({
 			i++;
 		}
 		btns_set.x = 350;
-		btns_set.y = 340;
+		btns_set.y = 330;
 		
 		stage.append(background, btns_set);
 		
