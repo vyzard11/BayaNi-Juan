@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.catalystcoders.bayanijuan"  version = "1.0.0" versionCode = "1" >
 
         <name>BayaNi Juan</name>
-        <description>RPG Game about heroes</description>
+        <description>RPG Game about Philippine National Heroes</description>
         <author>Catalyst Coders</author>
 		<content src="index.html" />
 		<gap:platforms>
