@@ -9,8 +9,8 @@ Class.create("Sprite_Hub", {
 // 		array.push(RPGJS.Path.getFile("pictures", "../../../materials/Graphics/Pictures/hp_meter.png", "hp_meter"));
 // 		array.push(RPGJS.Path.getFile("pictures", "../../../materials/Graphics/Pictures/button_A.png", "button_a"));
 // 		array.push(RPGJS.Path.getFile("pictures", "../../../materials/Graphics/Pictures/button_B.png", "button_b"));
- //array.push(RPGJS.Path.getFile("pictures", "hub.png", "hub"));
- //array.push(RPGJS.Path.getFile("pictures", "hp_meter.png", "hp_meter"));
+ array.push(RPGJS.Path.getFile("pictures", "hub.png", "hub"));
+ array.push(RPGJS.Path.getFile("pictures", "hp_meter.png", "hp_meter"));
  array.push(RPGJS.Path.getFile("pictures", "button_A.png", "button_a"));
  array.push(RPGJS.Path.getFile("pictures", "button_B.png", "button_b"));
 // 		
