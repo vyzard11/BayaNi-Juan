@@ -25,8 +25,7 @@ Class.create("Sprite_Hub", {
 			self = this,
 			_canvas = scene.getCanvas(),
 			hub = scene.createElement(["content", "hp_meter", "hero_face", "text"]),
-			btn = scene.createElement(["joystick","stick"]),
-			btn = scene.createElement(["rightPanel", "A", "B"]);
+			btn = scene.createElement(["rightPanel", "A", "B", "joystick"]);
 			
 		hub.content.drawImage("pictures_hub");
 		hub.content.x = 10;
