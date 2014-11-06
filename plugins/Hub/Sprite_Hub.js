@@ -13,7 +13,6 @@ Class.create("Sprite_Hub", {
  array.push(RPGJS.Path.getFile("pictures", "hp_meter.png", "hp_meter"));
  array.push(RPGJS.Path.getFile("pictures", "button_A.png", "button_a"));
  array.push(RPGJS.Path.getFile("pictures", "button_B.png", "button_b"));
- array.push(RPGJS.Path.getFile("pictures", "stick.png", "stick"));
 // 		
 
 		return array;
@@ -25,7 +24,7 @@ Class.create("Sprite_Hub", {
 			self = this,
 			_canvas = scene.getCanvas(),
 			hub = scene.createElement(["content", "hp_meter", "hero_face", "text"]),
-			btn = scene.createElement(["rightPanel", "A", "B", "joystick"]);
+			btn = scene.createElement(["rightPanel", "A", "B"]);
 			
 		hub.content.drawImage("pictures_hub");
 		hub.content.x = 10;

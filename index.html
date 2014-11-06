@@ -9,7 +9,7 @@
 	<script src="rpgjs/rpgjs.min.js"></script>
 	<script src="rpgjs/jq.js"></script>
 	<script src="plugins/gamepad.js"></script>
-	
+	<script src="plugins/virtualjoystick.js"></script>
 	<script src="plugins/soundmanager2-jsmin.js"></script>
 	
 	<style>
@@ -58,14 +58,13 @@
 	
 		});
 	
+		
 	</script>
 		
  </head>
-<body>
-	<div id="game"><canvas id="canvas" width="800" height="480" autofocus="autofocus"></canvas></div>
+  <body>
+		<div id="game"><canvas id="canvas" width="800" height="480" autofocus="autofocus"></canvas></div>
 	
-
-	<script src="plugins/joystick.js"></script>
 	<script>
 			$(document).ready(function(){
 				var widthTest = $(window).width();
@@ -74,5 +73,5 @@
 				$("#canvas").css({height:heightTest});
 			});
 	</script>
-</body>
+  </body>
 </html>

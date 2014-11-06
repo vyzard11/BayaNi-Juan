@@ -61,7 +61,7 @@ VirtualJoystick.prototype.destroy	= function()
 */
 VirtualJoystick.touchScreenAvailable	= function()
 {
-	return 'createTouch' in document ? true : true;
+	return 'createTouch' in document ? true : false;
 }
 
 //////////////////////////////////////////////////////////////////////////////////
